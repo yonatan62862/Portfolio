@@ -31,7 +31,7 @@ export default function Projects(): JSX.Element {
     return (
         <section className="lg:p-20 p-5 bg-gray-50 dark:bg-dark-main" id="projects">
             <div className="lg:container mx-auto">
-                <h2 className="mb-10 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-green-400 sm:text-5xl lg:text-6xl">
+                <h2 className="mb-10 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-blue-600 sm:text-5xl lg:text-6xl">
                     My Projects
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

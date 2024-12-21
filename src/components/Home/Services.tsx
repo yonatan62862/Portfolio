@@ -115,7 +115,7 @@ export default function Services(): JSX.Element {
 
     return (
         <section id="services" className="dark:bg-dark-main sm:p-10 lg:p-20 p-10">
-            <h2 className="text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-green-400 sm:text-5xl lg:text-6xl">
+            <h2 className="text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-blue-600 sm:text-5xl lg:text-6xl">
             My Services
             </h2>
             <div className="sm:container mx-auto mt-4">

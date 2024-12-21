@@ -16,7 +16,7 @@ export default function Service({ content, title, icon }: ServiceProps): JSX.Ele
                 </div>
             </div>
             <div className="sm:w-5/6">
-                <h3 className="text-xl mb-2 font-bold dark:text-green-400">{title}</h3>
+                <h3 className="text-xl mb-2 font-bold dark:text-blue-400">{title}</h3>
                 <p className="leading-6 dark:text-dark-txt">
                     {content}
                 </p>

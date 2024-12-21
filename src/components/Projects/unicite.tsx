@@ -9,7 +9,7 @@ export default function Unicite(): JSX.Element {
 
     return (
         <div className="min-h-screen mt-16 bg-gray-50 dark:bg-dark-second px-4 lg:px-8">
-            <h2 className="mb-2 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-green-400 sm:text-5xl lg:text-4xl">
+            <h2 className="mb-2 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-white sm:text-5xl lg:text-4xl">
                 Full-Stack Online Clothing Store - Unicité
             </h2>
             <ImageCarousel data={uniciteData} />
@@ -19,7 +19,7 @@ export default function Unicite(): JSX.Element {
                     {uniciteProjectDetails.map(({ title, images }, index) => (
                         <div key={index} className="dark:bg-dark-third bg-gray-100 shadow-md rounded-lg p-4 mb-6 transition-all duration-300 hover:shadow-lg">
                             <li className="flex items-start space-x-4">
-                                <span className="flex-shrink-0 text-green-500 text-2xl">●</span>
+                                <span className="flex-shrink-0 text-blue-500 text-2xl">●</span>
                                 <div className="flex flex-col">
                                     <p className="mb-2">{title}</p>
                                     <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-4">

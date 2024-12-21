@@ -4,7 +4,7 @@ export default function ContactMe(): JSX.Element {
     return (
         <section data-aos="zoom-in" className="sm:p-20 p-8 bg-gray-100 dark:bg-dark-main" id="contact">
             <div className="container mx-auto">
-                <h2 className=" mb-10 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-green-400 sm:text-5xl lg:text-6xl">
+                <h2 className=" mb-10 text-center font-header text-4xl font-thin uppercase text-zinc-800 dark:text-blue-600 sm:text-5xl lg:text-6xl">
                     Contact Me
                 </h2>
                 <div className="flex flex-wrap -mx-4">

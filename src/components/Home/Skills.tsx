@@ -17,11 +17,8 @@ export default function Skills(): JSX.Element {
     return (
         <div data-aos="fade-in" className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 p-4">
             <div className="max-w-xl mx-auto w-full text-center">
-                <h2 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-2 font-raleway">
-                    Some of My
-                </h2>
-                <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600 dark:text-green-400 mb-10 font-raleway">
-                    Skills
+                <h2 className="text-4xl md:text-5xl font-extrabold text-blue-600 dark:text-blue-600 mb-10 font-raleway">
+                    Some Of My Skills:
                 </h2>
             </div>
             {skills.map(({ name }, index) =>
