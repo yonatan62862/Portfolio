@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import SocialButtons from "./SocialButtons";
-import DownloadCV from "./DownloadCV";
 import homePageMemoji from "../../assets/images/homePageMemoji.png";
 import Typed from "typed.js";
 
@@ -45,7 +44,6 @@ export default function HomePage(): JSX.Element {
                             </p>
                             <SocialButtons />
                         </div>
-                        <DownloadCV />
                     </div>
 
                     <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
