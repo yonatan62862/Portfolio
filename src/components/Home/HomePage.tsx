@@ -12,7 +12,7 @@ export default function HomePage(): JSX.Element {
             loop: true,
         };
 
-    const typed = new Typed('.typing', options);
+        const typed = new Typed('.typing', options);
         return () => {
             typed.destroy();
         };
@@ -35,10 +35,10 @@ export default function HomePage(): JSX.Element {
                         </h1>
 
                         <h2 className="lg:text-2xl text-gray-700 dark:text-gray-300">
-                           And I'm <span className="typing font-bold text-blue-600 dark:text-blue-600"></span>
+                            And I'm <span className="typing font-bold text-blue-600 dark:text-blue-600"></span>
                         </h2>
                         <div data-aos="fade-right">
-                        <p className="text-xl mb-3 text-gray-800 dark:text-gray-200 font-bold tracking-wide">
+                            <p className="text-xl mb-3 text-gray-800 dark:text-gray-200 font-bold tracking-wide">
 
                                 Let's connect!
                             </p>
